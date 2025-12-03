@@ -49,3 +49,5 @@ A growth mindset means believing your abilities can improve throught effort and 
 * [Read 13](.md)
 * [Read 14](.md)
 * [Read 15](.md)
+
+### Thoughts and Observations
