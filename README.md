@@ -16,7 +16,7 @@ Welcome to my collection of reading notes.
 
 ## Hi, I'm Raymond!
 
-Check out my page [Github Reading Notes]()
+Check out my page [Github Reading Notes](https://ruby0x.github.io/reading-notes/)
 
 ## **Growth Mindset**
 
