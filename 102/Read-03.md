@@ -1,0 +1,60 @@
+
+
+1. Version Control is a system that lets you save and revisit different versions of a file or project. A **Version Control System (VCS)** helps you go back to earlier versions, see what changed, who changed it, compare updates, and fix mistakes easily.
+
+---
+
+2. Cloning in Git means making a copy of an existing Git repository from a server. You do this using the **`git clone`** command and the repository’s URL.
+
+    When you clone a repo:
+
+    - All versions of all files are copied  
+    - A new directory is created  
+    - A `.git` folder is added  
+    - Git checks out the newest version of the project  
+
+        Example command:
+
+        git clone https://github.com/test
+
+---
+3. The command used to track and stage files is **`git add`**.
+
+    To stage a single file:  
+        ```
+        git add "filename"
+        ```
+
+    To stage all files:  
+        ```
+        git add .
+        ```
+
+---
+
+4. Saving your changes in Git is called a **commit**, and Git creates a snapshot of your project when you commit.
+
+    Commit staged changes with a message:
+
+        git commit -m "any message here"
+
+
+    Example with details:
+
+        git commit -m "made change x,y,z"
+
+
+    Commit all modified tracked files:
+
+
+        git commit -a
+
+---
+
+5. To send your changes to a remote repository, referred to as "pushing changes", use:
+
+        git push origin master
+
+
+    This pushes your changes from the local **master** branch to the remote repository named **origin**. When you clone a repo, Git automatically names the original server **origin**.
+
